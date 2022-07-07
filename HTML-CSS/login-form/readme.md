@@ -2,4 +2,3 @@
 ## description
 sample login form using all the basic css concepts
 
-![](images/Screenshot%202022-07-07%20at%206.00.11%20PM.png)
