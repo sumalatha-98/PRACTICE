@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>sample Login-Form</title>
+        <link rel="stylesheet" href="./login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    </head>
+    <body>
+        <form>
+            <!-- main container -->
+            <div class="container">
+                <header>
+                    <h2>Log In</h2>
+                    <p>login here using username and password</p>
+                </header>
+                <br>
+                <!-- starting of input fields -->
+                <div class="field-set">
+                    <!-- displaying user icon -->
+                    <span class="input-item">
+                        <i class="fa fa-user-circle"></i>
+                    </span>
+                    <!-- text box for username -->
+                    <input type="text" class="form-input" placeholder="@UserName" required>
+                    <br>
+                    <!-- password key icon -->
+                    <span class="input-item">
+                        <i class="fa fa-key"></i>
+                        </span>
+                        <input type="password" class="form-input" placeholder="password" required>
+                        <!-- eye symbol to show and hide the password -->
+                    <span class="eye">
+                        <i class="fa fa-eye" id="eye"></i>
+                    </span>
+                    <br>
+                    <button class="log-in">Log In</button>
+                </div>
+                <div class="other-fileds">
+                    <button class="submits forgets">Forgot password</button>
+                    <button class="submits sign-up">Sign Up
+                    <span class="user">
+                        <i class="fa fa-user-plus" id="userplus" aria-hidden="true"></i>
+                    </span>
+                </button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
