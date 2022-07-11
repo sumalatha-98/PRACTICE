@@ -1,0 +1,124 @@
+body {
+  background-image: linear-gradient(to top, #a8edea 10%, #fed6e3 100%);
+  position: relative;
+  border-right: 50px;
+}
+.container {
+  width: 100%;
+  height: 90%;
+  margin: 3% auto 3% 4%;
+  border: 2px black;
+  display: inline-flex;
+}
+.container-desktop {
+  width: 60%;
+  height: 90%;
+  background-color: white;
+  margin-right: 40px;
+  border: 5px solid rgb(58, 58, 58);
+  border-radius: 2px;
+}
+.logo {
+  display: inline-block;
+  width: 100px;
+  margin: 2% 50% 0 6%;
+}
+footer {
+  margin-top: 17%;
+  background-color: black;
+  color: rgba(174, 149, 149, 0.669);
+  height: 72px;
+  text-align: center;
+  padding-top: 5px;
+}
+.links {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+.container-mobile {
+  margin-left: 70px;
+  width: 20%;
+  height: 90%;
+  background-color: white;
+  border: 5px solid rgb(58, 58, 58);
+}
+.table-header {
+  background-color: orangered;
+  color: white;
+}
+.products {
+  margin: 5% 3% auto 8%;
+  width: 80%;
+  border-collapse: collapse;
+  /* border: 0; */
+  /* border-bottom: 2px solid red; */
+}
+.product-image {
+  display: inline-flex;
+}
+img.pic {
+  width: 100px;
+  margin: 5px 5px 10px 5px;
+  height: 80px;
+}
+.price,
+.product {
+  margin: 0;
+}
+.product-info {
+  margin: 10px 0 0 5px;
+}
+.num {
+  text-align: center;
+  border: 2px solid rgb(147, 143, 143);
+  margin: 0 40% 0 40%;
+}
+.subtotal {
+  text-align: center;
+}
+.total {
+  margin-left: 60%;
+  width: 35%;
+  border-top: 5px solid red;
+}
+.child {
+  margin: 10px 0 5px 0;
+}
+.checkout {
+  border: none;
+  background-color: orangered;
+  color: white;
+  height: 30px;
+  border-radius: 75px 75px;
+  margin: 2% 15% 0 0;
+  width: 250;
+  float: right;
+}
+.checkout-mobile {
+  border: none;
+  background-color: orangered;
+  color: white;
+  height: 30px;
+  border-radius: 75px 75px;
+  margin: 5px 2% 0 0;
+  width: 250;
+  float: right;
+}
+.checkout-mobile {
+  margin-right: 50px;
+  float: right;
+}
+.products-mobile {
+  margin: 50px 2px 0 10px;
+  border-bottom: 5px solid red;
+  border-collapse: collapse;
+}
+.mobile {
+  width: 55%;
+}
+.total-mobile {
+  width: 100%;
+  margin: 10px 0 0px 20px;
+}

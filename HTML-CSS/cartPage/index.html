@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-desktop">
+            <header class="header">
+                <img src="./images/redstore.jpg" class="logo">
+
+                <a class="links" href="./index.html">Home</a>
+                <a class="links" href="./index.html">Products</a>
+                <a class="links" href="./index.html">About</a>
+                <a class="links" href="./index.html">Contact</a>
+                <a class="links" href="./index.html">Account</a>
+                <span class="icon">
+                    <i class="fa fa-shopping-bag"></i>
+                </span>
+            </header>
+
+            <table class="products">
+                <th class="table-header">Product</th>
+                <th class="table-header">Quantity</th>
+                <th class="table-header">Sub-Total</th>
+                <tr>
+                    <td class="product-image"><img class="pic" src="./images/t-shirt.jpeg">
+                        <div class="product-info">
+                            <p class="product">Black t-shirt</p>
+                            <p class="price">price: $50.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$50.00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-image"><img class="pic" src="./images/shoe.jpeg">
+                        <div class="product-info">
+
+                            <p class="product">HRX sports shoe</p>
+                            <p class="price">price: $75.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$75.00</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class=" product-image"><img class="pic" src="./images/tops.webp">
+                        <div class="product-info">
+
+                            <p class="product">Top</p>
+                            <p class="price">price: $25.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$25.00</p>
+                    </td>
+
+                </tr>
+            </table>
+
+            <table class="total">
+                <tr class="child">
+                    <td>subtotal</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr class="child">
+                    <td>Tax</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr class="child">
+                    <td>Total</td>
+                    <td>$235.00</td>
+                </tr>
+            </table>
+
+            <button class="checkout" type="button">Proceed to Check Out--></button>
+
+            <footer>
+                <p class=" copyright">Copyright 2020 - Easy tutorials</p>
+            </footer>
+        </div>
+        <div class="container-mobile">
+            <header class="header">
+                <!-- <p class="logo">Red Store</p> -->
+                <img src="./images/redstore.jpg" class="logo">
+                <span class="icons">
+                    <i class="fa fa-shopping-basket"></i>
+                </span>
+
+            </header>
+            <table class="products-mobile">
+                <th class="table-header mobile">Product</th>
+                <th class="table-header">Quantity</th>
+                <th class="table-header">Sub-Total</th>
+                <tr>
+                    <td><img class="pic" src="./images/t-shirt.jpeg">
+                        <div class="product-info">
+                            <p class="price">price: $50.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$50.00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="pic" src="./images/shoe.jpeg">
+                        <div class="product-info">
+
+                            <p class="price">price: $75.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$75.00</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><img class="pic" src="./images/tops.webp">
+                        <div class="product-info">
+
+                            <p class="price">price: $25.00</p>
+                            <a class="links" href="./index.html" style="color: red;">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="num">1</p>
+                    </td>
+                    <td>
+                        <p class="subtotal">$25.00</p>
+                    </td>
+
+                </tr>
+            </table>
+            <table class="total-mobile">
+                <tr class="child">
+                    <td>subtotal</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr class="child">
+                    <td>Tax</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr class="child">
+                    <td>Total</td>
+                    <td>$235.00</td>
+                </tr>
+            </table>
+            <button class="checkout-mobile" type="button">Proceed to Check Out--></button>
+        </div>
+    </div>
+</body>
+
+</html>
